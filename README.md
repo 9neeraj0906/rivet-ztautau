@@ -12,7 +12,7 @@ A particle-level [Rivet 4](https://heprivet.gitlab.io/) analysis of Z/γ* → τ
 ## What the routine does
 1. Finds muons (pT > 20 GeV, |η| < 2.1) and hadronically decaying taus (`TauFinder`).
 2. Builds the **visible** τ_h from the tau's stable decay products, leaving out neutrinos.
-3. Applies the thesis cuts: visible τ_h pT > 32 GeV, |η| < 2.3; opposite charge; ΔR(μ, τ_h) > 0.5; extra-electron veto; b-jet veto (ghost-associated b-hadrons).
+3. Applies cuts: visible τ_h pT > 32 GeV, |η| < 2.3; opposite charge; ΔR(μ, τ_h) > 0.5; extra-electron veto; b-jet veto (ghost-associated b-hadrons).
 4. Fills m_vis(μ, τ_h), m(μ + full τ_h), muon and τ_h pT, ΔR(μ, τ_h), and a fiducial cross-section counter.
 
 ## Key results
@@ -55,4 +55,4 @@ NOTES.md       detailed walkthrough: every step, every problem and fix, all reso
 
 ---
 *Sai Sahith Neeraj Shetty — Integrated M.Sc. Physics, BIT Mesra.*
-*I used Claude (an AI assistant) as a tutor while learning Rivet: for explanations, debugging and code review. Parts of the final routine (vetoes, counter, extra histograms) started from code it suggested, which I then studied and ran myself.*
+
