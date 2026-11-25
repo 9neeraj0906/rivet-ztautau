@@ -1,0 +1,6 @@
+outputs/
+*.hepmc
+*.hepmc.gz
+*.so
+*.yoda
+plots_*/
